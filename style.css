@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    /* This line of codes remove the bullet point from the unordered list  */
+    list-style-type: none;
+    /* This creates a gutter between the links as a result of the flex on the unordered list */
+    gap: 20px;
+}

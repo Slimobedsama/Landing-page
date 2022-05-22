@@ -2,9 +2,21 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    height: 20vh;
 }
 
 ul {
@@ -13,4 +25,21 @@ ul {
     list-style-type: none;
     /* This creates a gutter between the links as a result of the flex on the unordered list */
     gap: 20px;
+}
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.rm-d4 {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header, .hero {
+    background-color: #1f2937;
 }

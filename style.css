@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .header-hero-container {
-    height: 70vh;
+    height: 80vh;
 }
 
 .header {
@@ -37,7 +37,7 @@ ul {
 }
 .logo {
     width: 60px;
-    height: 60px;
+    height: auto;
     border-radius: 5px;
     margin-top: 10px;
     background-color: #fff;
@@ -91,4 +91,46 @@ ul {
     height: 30px;
     width: 80px;
     margin-top: 30px;
+}
+
+.info-header-container {
+    height: 60vh;
+    margin: 20px 0;
+}
+
+.info-header-text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.info-header-text, .img-text, .quote-sect {
+    color: #1f2937;
+}
+
+.info-img {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.img-text {
+    text-align: center;
+    font-size: 18px;
+}
+
+.quote-sect {
+    height: 60vh;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    padding: 0 40px;
+    padding-top: 40px;
+}
+
+.q-sub-text {
+    padding-left: 500px;
+    font-weight: bold;
 }

@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, p {
     padding-bottom: 60px;
 }
 
-.header, .hero {
+.header, .hero, .footer {
     background-color: #1f2937;
 }
 
@@ -43,7 +43,7 @@ ul {
     background-color: #fff;
 }
 
-.rm-d4 {
+a {
     /* Removes the underline in the link */
     text-decoration: none;
 }
@@ -80,17 +80,20 @@ ul {
     margin-bottom: 60px;
 }
 
-.rm-d4-1 {
-    text-decoration: none;
+.rm-d4-1, .cta {
     color: #fff;
 }
+
 .btn {
     background-color: #3883f6;
+    margin-top: 30px;
+}
+
+.btn, .cta-btn-1 {
     border: 1px;
     border-radius: 5px;
     height: 30px;
     width: 80px;
-    margin-top: 30px;
 }
 
 .info-header-container {
@@ -120,7 +123,7 @@ ul {
 }
 
 .testimonial-sect {
-    height: 60vh;
+    height: 50vh;
     background-color: #e5e7eb;
     font-size: 36px;
     font-style: italic;
@@ -133,4 +136,29 @@ ul {
 .test-sub-text {
     padding-left: 500px;
     font-weight: bold;
+}
+
+.cta-container {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3883f6;
+    color: #fff;
+    margin: 60px 80px;
+    border-radius: 10px;
+}
+
+.cta-btn-1 {
+    background-color: #3883f6;
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    height: 10vh;
 }

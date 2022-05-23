@@ -119,7 +119,7 @@ ul {
     font-size: 18px;
 }
 
-.quote-sect {
+.testimonial-sect {
     height: 60vh;
     background-color: #e5e7eb;
     font-size: 36px;
@@ -130,7 +130,7 @@ ul {
     padding-top: 40px;
 }
 
-.q-sub-text {
+.test-sub-text {
     padding-left: 500px;
     font-weight: bold;
 }

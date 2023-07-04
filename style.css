@@ -57,6 +57,7 @@ a {
 .hero {
     display: flex;
     justify-content: space-around;
+    padding: 30px;
 }
 
 .main-text {
@@ -76,7 +77,7 @@ a {
 
 .hero-img {
     height: auto;
-    width: 300px;
+    max-width: 500px;
     margin-right: 200px;
     margin-bottom: 60px;
 }

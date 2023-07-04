@@ -20,11 +20,11 @@ body, h1, h2, h3, h4, h5, h6, p {
 }
 
 .logo-image {
-    width: 45%;
+    width: 40%;
 }
 
 .header-links {
-    width: 35%;
+    width: 40%;
 }
 
 .header-hero-container, .footer {
@@ -36,15 +36,12 @@ body, h1, h2, h3, h4, h5, h6, p {
     justify-content: space-between;
     /* This line of codes remove the bullet point from the unordered list  */
     list-style-type: none;
-    /* This creates a gutter between the links as a result of the flex on the unordered list */
-    gap: 80px;
 }
 .logo {
-    width: 60px;
+    width: 70px;
     height: auto;
     border-radius: 5px;
     margin-top: 10px;
-    background-color: #fff;
 }
 
 a {

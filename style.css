@@ -12,11 +12,10 @@ body, h1, h2, h3, h4, h5, h6, p {
     width: fit-content;
 }
 
-.header {
+.header-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 60px;
     width: 100%;
 }
 
@@ -28,11 +27,11 @@ body, h1, h2, h3, h4, h5, h6, p {
     width: 35%;
 }
 
-.header, .hero, .footer {
+.header-hero-container, .footer {
     background-color: #1f2937;
 }
 
-.header ul {
+.header-links ul {
     display: flex;
     justify-content: space-between;
     /* This line of codes remove the bullet point from the unordered list  */

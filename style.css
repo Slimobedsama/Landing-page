@@ -8,9 +8,9 @@ body, h1, h2, h3, h4, h5, h6, p {
     font-family: 'Times New Roman', Times, serif;
 }
 
-/* .header-hero-container {
-    height: 80vh;
-} */
+.header-hero-container {
+    width: fit-content;
+}
 
 .header {
     display: flex;

@@ -9,22 +9,23 @@ body, h1, h2, h3, h4, h5, h6, p {
 }
 
 .header-hero-container {
-    width: fit-content;
+    min-width: 1000px;
 }
 
 .header-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    /* width: 100%; */
 }
-
-.logo-image {
-    width: 40%;
+.logo {
+    width: 70px;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
 }
-
 .header-links {
-    width: 40%;
+    width: 30%;
 }
 
 .header-hero-container, .footer {
@@ -34,16 +35,11 @@ body, h1, h2, h3, h4, h5, h6, p {
 .header-links ul {
     display: flex;
     justify-content: space-between;
+}
+.header-links .nav-links {
     /* This line of codes remove the bullet point from the unordered list  */
     list-style-type: none;
 }
-.logo {
-    width: 70px;
-    height: auto;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
 a {
     /* Removes the underline in the link */
     text-decoration: none;
@@ -99,14 +95,15 @@ a {
 }
 
 .info-header-container {
-    height: 60vh;
-    margin: 20px 0;
+    padding: 50px 0;
+    /* margin: 20px 0; */
 }
 
 .info-header-text {
     text-align: center;
     font-size: 36px;
     font-weight: bolder;
+    margin-bottom: 20px;
 }
 
 .info-header-text, .img-text, .quote-sect {
@@ -115,7 +112,7 @@ a {
 
 .info-img {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 20px;
 }
 
@@ -123,16 +120,20 @@ a {
     text-align: center;
     font-size: 18px;
 }
-
 .testimonial-sect {
-    height: 50vh;
     background-color: #e5e7eb;
+    padding: 40px;
+    /* width: fit-content; */
+}
+.testimonial-sect p {
+    /* height: 50vh; */
+    /* background-color: #e5e7eb; */
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
     text-align: center;
-    padding: 0 40px;
-    padding-top: 40px;
+    /* padding: 40px; */
+    /* padding-top: 40px; */
 }
 
 .test-sub-text {

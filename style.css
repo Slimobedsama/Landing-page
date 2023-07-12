@@ -55,27 +55,18 @@ a {
     justify-content: space-around;
     padding: 40px;
 }
-
+.hero-text {
+    width: 30%;
+}
 .main-text {
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
-    width: 45%;
-}
-
-.sub-text {
-    width: 66%;
-}
-
-.main-text, .sub-text, .btn {
-    margin-left: 200px;
 }
 
 .hero-img {
     height: auto;
     width: 500px;
-    margin-right: 200px;
-    margin-bottom: 60px;
 }
 
 .rm-d4-1, .cta {

@@ -16,7 +16,6 @@ body, h1, h2, h3, h4, h5, h6, p {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* width: 100%; */
 }
 .logo {
     width: 70px;
@@ -95,7 +94,7 @@ a {
     margin-bottom: 20px;
 }
 
-.info-header-text, .img-text, .quote-sect {
+.info-header-text, .img-text, .testimonial-sect {
     color: #1f2937;
 }
 
@@ -121,7 +120,7 @@ a {
 }
 
 .test-sub-text {
-    padding-left: 500px;
+    margin-left: 500px;
     font-weight: bold;
 }
 

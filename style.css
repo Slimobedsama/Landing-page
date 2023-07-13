@@ -7,11 +7,9 @@ body, h1, h2, h3, h4, h5, h6, p {
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
 }
-
-.header-hero-container, .info-header-container, .testimonial-sect, .footer {
+.header-hero-container, .info-header-container, .testimonial-sect, .cta-content, .footer {
     min-width: 1000px;
 }
-
 .header-container {
     display: flex;
     justify-content: space-around;
@@ -26,11 +24,9 @@ body, h1, h2, h3, h4, h5, h6, p {
 .header-links {
     width: 30%;
 }
-
 .header-hero-container, .footer {
     background-color: #1f2937;
 }
-
 .header-links ul {
     display: flex;
     justify-content: space-between;
@@ -43,12 +39,10 @@ a {
     /* Removes the underline in the link */
     text-decoration: none;
 }
-
 .rm-d4, .sub-text {
     color: #e5e7eb;
     font-size: 18px;
 }
-
 .hero {
     display: flex;
     justify-content: space-around;
@@ -70,40 +64,32 @@ a {
     height: auto;
     width: 500px;
 }
-
 .rm-d4-1, .cta {
     color: #fff;
 }
-
 .btn, .cta-btn-1 {
     border: 1px;
     border-radius: 5px;
     height: 30px;
     width: 80px;
 }
-
 .info-header-container {
     padding: 50px 0;
-    /* margin: 20px 0; */
 }
-
 .info-header-text {
     text-align: center;
     font-size: 36px;
     font-weight: bolder;
     margin-bottom: 20px;
 }
-
 .info-header-text, .img-text, .testimonial-sect {
     color: #1f2937;
 }
-
 .info-img {
     display: flex;
     justify-content: space-evenly;
     margin-top: 20px;
 }
-
 .img-text {
     text-align: center;
     font-size: 18px;
@@ -118,12 +104,10 @@ a {
     font-weight: lighter;
     text-align: center;
 }
-
 .test-sub-text {
     margin-left: 500px;
     font-weight: bold;
 }
-
 .cta-container {
     width: 800px;
     display: flex;
@@ -135,13 +119,11 @@ a {
     padding: 40px;
     border-radius: 10px;
 }
-
 .cta-btn-1 {
     background-color: #3883f6;
     border-radius: 5px;
     border: 2px solid #fff;
 }
-
 .footer {
     display: flex;
     justify-content: center;

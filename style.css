@@ -45,7 +45,7 @@ a {
 .hero {
     display: flex;
     justify-content: space-around;
-    padding: 40px;
+    padding: 120px 20px;
 }
 .hero-text {
     width: 30%;
@@ -74,7 +74,7 @@ a {
     background-color: #3883f6;
 }
 .info-header-container {
-    padding: 50px 0;
+    padding: 120px 0;
 }
 .info-header-text {
     text-align: center;
@@ -96,7 +96,7 @@ a {
 }
 .testimonial-sect {
     background-color: #e5e7eb;
-    padding: 40px;
+    padding: 60px;
 }
 .testimonial-sect p {
     font-size: 36px;
@@ -107,6 +107,9 @@ a {
 .test-sub-text {
     margin-left: 500px;
     font-weight: bold;
+}
+.cta-content {
+    padding: 40px;
 }
 .cta-container {
     width: 800px;
